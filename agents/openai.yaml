@@ -1,0 +1,6 @@
+interface:
+  display_name: "Deliberate Writing"
+  short_description: "Write and revise by purpose, context, and function"
+  default_prompt: "Use $deliberate-writing to produce or revise this prose for its actual purpose and context."
+policy:
+  allow_implicit_invocation: true

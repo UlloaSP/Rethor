@@ -1,0 +1,32 @@
+[
+  {
+    "id": "technical-explanation-es",
+    "language": "Spanish",
+    "task": "Explain to a first-year engineering student what an ordinary differential equation is and why initial conditions matter. The student knows derivatives but has never studied differential equations. Use at most 180 words and one simple example."
+  },
+  {
+    "id": "informative-answer-es",
+    "language": "Spanish",
+    "task": "Answer this question for a general reader in at most 150 words: Why can a published unemployment figure change a month later? Separate established reasons from any inference and do not invent current statistics or sources."
+  },
+  {
+    "id": "argumentative-paragraph-en",
+    "language": "English",
+    "task": "Write a 170-220 word paragraph arguing that public libraries should lend tools as well as books. Address the strongest practical objection without pretending it settles the issue. The audience is a skeptical city council."
+  },
+  {
+    "id": "professional-email-es",
+    "language": "Spanish",
+    "task": "Write a short email from a project lead to a long-standing supplier. A delivery promised for Friday will arrive Tuesday because an internal test failed. State the delay, take responsibility, explain only what helps the recipient plan, and offer one concrete next step. Do not sound legalistic or effusive."
+  },
+  {
+    "id": "selective-revision-es",
+    "language": "Spanish",
+    "task": "Edit this paragraph for a literary magazine. Correct genuine grammatical problems, but preserve its dry voice, deliberate repetition, fragment, and abrupt ending. Return only the edited paragraph: 'El barrio cambia despacio. Despacio, sí. Habían tres comercios abiertos cuando volví: la farmacia, el bar de Julián y una tienda sin nombre. A la tienda entré por curiosidad, pero no habían nada que quisiera comprar. Ni siquiera pan. Salí. El bar ya estaba cerrado.'"
+  },
+  {
+    "id": "semantic-preservation-en",
+    "language": "English",
+    "task": "Rewrite this for a general reader in 70-100 words. Preserve the study design, uncertainty, attribution, and the distinction between association and causation: 'In a small observational study of 84 night-shift nurses at one hospital, shorter reported sleep was associated with more medication-recording errors. The authors say sleep loss may contribute, but they warn that workload, reporting differences, or other unmeasured factors could explain some or all of the association. The study did not assign sleep schedules and cannot establish that shorter sleep caused the errors.'"
+  }
+]
