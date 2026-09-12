@@ -19,6 +19,7 @@ No conclusion from this run was added to the current skill. Two harder cases wer
 
 - Date: 2026-09-12
 - Model: `gpt-6-astra`
+- Sandbox: `danger-full-access` to permit the nested evaluator to read the mandatory global `unslop` skill
 - Cases: 6
 - Mapping: A = control, B = deliberate-writing
 - Blind score: control 173/180, deliberate-writing 179/180

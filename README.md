@@ -32,6 +32,8 @@ The experiment compares a control response with a response produced under the sk
 
 The script writes raw responses and a blind rubric-based assessment under `experiments/results/`. Model output varies, so the checked-in report records the exact run rather than claiming a permanent score.
 
+The default evaluation sandbox is read-only. If your Codex configuration requires loading a global mandatory skill and blocks that read, review the benchmark inputs first and run with `-Sandbox danger-full-access`.
+
 Validate the package structure with:
 
 ```powershell

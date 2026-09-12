@@ -1,7 +1,9 @@
 [CmdletBinding()]
 param(
     [string]$OutputRoot = (Join-Path $PSScriptRoot "..\experiments\results"),
-    [string]$Model = ""
+    [string]$Model = "",
+    [ValidateSet("read-only", "danger-full-access")]
+    [string]$Sandbox = "read-only"
 )
 
 $ErrorActionPreference = "Stop"
@@ -27,7 +29,7 @@ function Invoke-CodexRun {
     )
 
     $Prompt | & codex exec --ephemeral --ignore-user-config --skip-git-repo-check `
-        --sandbox danger-full-access `
+        --sandbox $Sandbox `
         --cd $codexWorkdir --output-last-message $OutputFile @modelArgs -
     if ($LASTEXITCODE -ne 0) {
         throw "Codex failed while producing $OutputFile"
