@@ -1,6 +1,6 @@
 ---
 name: deliberate-writing
-description: Produce, evaluate, and revise text by reasoning about communicative purpose, context, language, and rhetorical function. Use when writing or rewriting prose where wording, structure, tone, clarity, naturalness, or style matter.
+description: Produce, evaluate, and revise text by reasoning about communicative purpose, context, language, discourse architecture, and rhetorical function. Use when writing or rewriting prose where wording, structure, tone, clarity, naturalness, or style matter.
 ---
 
 # Deliberate Writing
@@ -36,6 +36,7 @@ Determine, as needed:
 * what information or ideas must be communicated;
 * who is expected to read it;
 * what the reader probably already knows;
+* what the reader needs to understand, decide, feel, or do;
 * what level of precision is required;
 * what register and social relationship are appropriate;
 * what kind of discourse the situation calls for;
@@ -75,6 +76,7 @@ Decide how the content should unfold for this particular reader and purpose.
 
 Consider:
 
+* what the governing idea or communicative movement is;
 * what should come first;
 * what needs explanation;
 * what can remain implicit;
@@ -91,6 +93,8 @@ Do not automatically reproduce familiar response templates.
 Do not manufacture contrasts, conclusions, transitions, symmetry, or rhetorical escalation merely to give the text visible structure.
 
 Structure should follow the content and purpose.
+
+When possible, prefer a progression in which the reader can understand why each part follows from the previous one without having to reconstruct the argument independently.
 
 ## 4. Write in the target language, not through another language
 
@@ -128,24 +132,85 @@ Concision is not the same as quality.
 
 Elegance is not the same as correctness.
 
-## 6. Diagnose before revising
+## 6. Evaluate the discourse architecture
+
+After producing a viable draft, inspect the text as a whole before focusing on local wording.
+
+A text can contain individually good sentences and paragraphs while still having a weak overall realization.
+
+Identify the governing idea or communicative movement and determine what function each substantial passage performs.
+
+Ask:
+
+* Is the central idea expressed in its strongest useful form?
+* Does each paragraph materially advance, qualify, exemplify, operationalize, contrast, or otherwise contribute something to what came before?
+* Are several passages performing essentially the same function?
+* Is an important idea stated several times without each occurrence adding enough value?
+* Could two good passages become one better passage?
+* Is any secondary point receiving more attention than the idea it exists to support?
+* Does the order minimize unnecessary reconstruction by the reader?
+* Does a digression, however relevant, interrupt a stronger line of development?
+* Does the ending resolve or appropriately leave open the actual communicative problem?
+
+Local quality does not guarantee global quality.
+
+A locally successful sentence or paragraph may still be removed, merged, moved, or rewritten when doing so improves the architecture of the whole.
+
+### Repetition
+
+Do not treat repetition as a defect by default.
+
+When an idea recurs, determine what the new occurrence adds.
+
+Useful repetition may provide:
+
+* clarification;
+* qualification;
+* emphasis;
+* consequence;
+* contrast;
+* reframing;
+* recall at a point where the reader needs it.
+
+If two occurrences perform effectively the same function and neither gains meaning from the repetition, consider consolidating them.
+
+### Hierarchy
+
+Allocate textual space and emphasis according to communicative importance.
+
+Supporting examples, caveats, transitions, and qualifications should not obscure the distinction, decision, insight, or proposition they exist to support.
+
+When one idea carries substantially more explanatory or argumentative value than surrounding material, give it proportionate prominence.
+
+### Reader effort
+
+Do not make the reader perform avoidable interpretive work.
+
+The reader should not need to reconstruct the main thesis from several overlapping formulations when it can be stated clearly and then developed.
+
+Do not make every relationship explicit, but make important relationships explicit when leaving them implicit would create unnecessary ambiguity or cognitive load.
+
+## 7. Diagnose before revising
 
 Do not revise merely because revision is possible.
 
-Treat the current wording as acceptable unless a concrete defect can be identified.
+Treat the current wording as acceptable unless a concrete defect or clearly identifiable global improvement can be stated.
 
 A defect may concern, among other things:
 
 * semantic accuracy;
 * ambiguity;
 * logical structure;
+* discourse architecture;
 * information order;
 * unnecessary repetition;
 * missing repetition;
+* misplaced emphasis;
+* weak progression;
+* competing organizing ideas;
 * unnatural phrasing;
 * register;
 * rhythm;
-* emphasis;
 * cohesion;
 * rhetorical excess;
 * insufficient explanation;
@@ -157,11 +222,24 @@ A defect may concern, among other things:
 
 Do not use vague diagnoses such as "could be smoother," "could be stronger," or "could be more polished" unless the underlying problem can be stated more precisely.
 
-If no meaningful defect exists, keep the text.
+Do not revise merely because another formulation is possible.
 
-## 7. Revise locally when possible
+However, an acceptable passage may still justify revision when a clearly superior realization improves the text in a specific way, such as:
 
-When a defect is found, identify the smallest region that needs modification.
+* consolidating repeated functions;
+* sharpening hierarchy;
+* reducing unnecessary reader effort;
+* improving argumentative or explanatory progression;
+* making the governing idea easier to recover;
+* removing competition between secondary and primary material.
+
+If no meaningful defect or identifiable improvement exists, keep the text.
+
+## 8. Revise at the level where the problem exists
+
+When a defect is found, identify its actual scope.
+
+Prefer local revision when the problem is local.
 
 Generate alternatives only as needed.
 
@@ -184,7 +262,11 @@ Possible costs include:
 
 Do not rewrite an entire passage when a local correction is sufficient.
 
-## 8. Preserve useful imperfection
+But do not force a local correction onto a global problem.
+
+When the defect concerns discourse architecture—such as redundant paragraph functions, misplaced emphasis, weak progression, or competing organizing ideas—revise at the level at which the defect exists, even if that requires merging, moving, deleting, or restructuring multiple passages.
+
+## 9. Preserve useful imperfection
 
 Do not normalize every sentence toward the same polished style.
 
@@ -196,7 +278,7 @@ Preserve them when they serve the intended effect.
 
 Do not confuse uniformity with quality.
 
-## 9. Use rhetoric intentionally
+## 10. Use rhetoric intentionally
 
 Rhetorical devices are tools, not decorations.
 
@@ -212,7 +294,9 @@ Use emphasis only when something deserves emphasis.
 
 Do not create a rhetorical relationship that does not already exist in the content merely because the construction sounds effective.
 
-## 10. Respect the existing voice when rewriting
+Do not allow a rhetorically attractive sentence to displace a more important but less conspicuous idea.
+
+## 11. Respect the existing voice when rewriting
 
 When improving text written by someone else, distinguish defects from preferences.
 
@@ -222,19 +306,53 @@ Do not silently replace the author's style with the model's preferred style.
 
 When multiple formulations are equally valid, prefer the one most compatible with the surrounding text.
 
-## 11. Stop when the text is sufficient
+Global restructuring is justified only when it materially improves the requested objective, not merely because another organization would also work.
+
+## 12. Perform a whole-text editorial pass
+
+Before considering the text finished, perform one final pass concerned only with the whole.
+
+Do not use this pass to search mechanically for sentence-level changes.
+
+Inspect:
+
+* the governing idea;
+* progression;
+* paragraph or passage function;
+* repeated meaning;
+* distribution of emphasis;
+* reader effort;
+* digressions;
+* the relationship between supporting material and central material;
+* the ending.
+
+Mentally assign each substantial passage a function.
+
+If two nearby passages have substantially the same function, determine whether both are necessary.
+
+If an important idea is buried among routine examples or qualifications, reconsider the allocation of space.
+
+If deleting a passage makes the argument no weaker and the purpose no less complete, determine whether the passage has a real function.
+
+Do not remove material merely to shorten the text.
+
+Remove, merge, move, or compress material only when doing so improves the communicative architecture.
+
+## 13. Stop when the text is sufficient
 
 Repeated rewriting does not imply repeated improvement.
 
 After revision, evaluate the text again.
 
-If no concrete defect remains that matters for the task, stop.
+Stop when no concrete defect or clearly superior functional realization remains that matters for the task.
 
 Do not continue modifying prose merely to make it different from the previous version.
 
+Do not continue because another stylistic possibility can be imagined.
+
 The objective is not maximal revision.
 
-The objective is an adequate final realization of the intended communication.
+The objective is the best justified realization of the intended communication.
 
 ## Internal procedure
 
@@ -242,12 +360,15 @@ Unless the user asks to see the analysis, perform the following reasoning silent
 
 1. Infer purpose, audience, context, constraints, and language.
 2. Establish the intended content and important semantic relationships.
-3. Choose an appropriate discourse strategy.
-4. Produce a viable realization.
-5. Inspect it for concrete defects.
-6. Revise only defects that justify intervention.
-7. Verify semantic fidelity and contextual adequacy.
-8. Stop when further changes lack a clear functional benefit.
+3. Identify the governing idea or communicative movement.
+4. Choose an appropriate discourse strategy.
+5. Produce a viable realization.
+6. Inspect the whole for progression, hierarchy, repeated function, reader effort, and distribution of emphasis.
+7. Diagnose concrete local or global defects.
+8. Revise at the level where each defect actually exists.
+9. Verify semantic fidelity, naturalness, and contextual adequacy.
+10. Perform one whole-text editorial pass.
+11. Stop when further changes lack a clear functional benefit.
 
 Do not expose this procedure as commentary in the final response unless doing so is itself useful to the task.
 
@@ -258,6 +379,16 @@ When uncertain between two formulations, prefer the one that is:
 * more faithful to the intended meaning;
 * more natural in the target language;
 * better suited to the reader and purpose;
+* clearer in its relationship to the surrounding discourse;
+* less demanding of unnecessary interpretive work;
 * less dependent on unnecessary rhetorical scaffolding.
+
+When choosing between two larger realizations, prefer the one in which:
+
+* the governing idea is easier to recover;
+* each passage has a clearer function;
+* important ideas receive proportionate emphasis;
+* repetition adds function rather than merely restating;
+* the progression requires less reconstruction from the reader.
 
 When those criteria do not clearly favor a change, keep the existing formulation.
