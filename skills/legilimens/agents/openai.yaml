@@ -1,0 +1,6 @@
+interface:
+  display_name: "Legilimens"
+  short_description: "Turn complex relationships into readable visuals"
+  default_prompt: "Use $legilimens to express this answer in the clearest useful visual form."
+policy:
+  allow_implicit_invocation: true
