@@ -5,8 +5,9 @@ import yaml
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SKILL = ROOT / "SKILL.md"
-OPENAI_YAML = ROOT / "agents" / "openai.yaml"
+SKILL_ROOT = ROOT / "skills" / "deliberate-writing"
+SKILL = SKILL_ROOT / "SKILL.md"
+OPENAI_YAML = SKILL_ROOT / "agents" / "openai.yaml"
 
 
 def fail(message: str) -> None:
@@ -21,8 +22,8 @@ if not match:
 frontmatter = yaml.safe_load(match.group(1))
 if frontmatter.get("name") != "deliberate-writing":
     fail("skill name must be deliberate-writing")
-if not isinstance(frontmatter.get("description"), str) or not frontmatter["description"].strip():
-    fail("skill description is required")
+if not frontmatter.get("description", "").endswith("Must always apply."):
+    fail('skill description must end with "Must always apply."')
 
 metadata = yaml.safe_load(OPENAI_YAML.read_text(encoding="utf-8"))
 interface = metadata.get("interface", {})

@@ -10,7 +10,7 @@ $ErrorActionPreference = "Stop"
 $repoRoot = (Resolve-Path (Join-Path $PSScriptRoot "..")).Path
 $casesPath = Join-Path $repoRoot "experiments\cases.json"
 $rubricPath = Join-Path $repoRoot "experiments\rubric.md"
-$skillPath = Join-Path $repoRoot "SKILL.md"
+$skillPath = Join-Path $repoRoot "skills\deliberate-writing\SKILL.md"
 $runId = Get-Date -Format "yyyyMMdd-HHmmss"
 $runPath = Join-Path $OutputRoot $runId
 New-Item -ItemType Directory -Path $runPath -Force | Out-Null

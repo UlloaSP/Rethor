@@ -1,6 +1,6 @@
 ---
 name: deliberate-writing
-description: Produce, evaluate, and revise text by reasoning about communicative purpose, context, language, discourse architecture, and rhetorical function. Use when writing or rewriting prose where wording, structure, tone, clarity, naturalness, or style matter.
+description: Produce, evaluate, and revise text by reasoning about communicative purpose, context, language, discourse architecture, and rhetorical function. Must always apply.
 ---
 
 # Deliberate Writing

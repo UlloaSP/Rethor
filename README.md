@@ -1,26 +1,26 @@
-# Rhetor
+# skills
 
-Rhetor is the home of **Deliberate Writing**, a Codex skill for drafting and revision based on communicative purpose. It asks the model to settle meaning and discourse strategy before wording, then permits revisions only when they fix a concrete defect.
+This repository contains **Deliberate Writing**, a Codex skill for drafting and revision based on communicative purpose. It asks the model to settle meaning and discourse strategy before wording, then permits revisions only when they fix a concrete defect.
 
 The skill is language- and genre-agnostic. It does not use phrase blacklists, generic style targets, or language-specific patches.
 
 ## Install
 
-Clone the repository into the Codex skills directory:
+Clone the repository:
 
 ```powershell
-git clone https://github.com/UlloaSP/Rethor "$env:USERPROFILE\.codex\skills\deliberate-writing"
+git clone https://github.com/UlloaSP/skills "C:\path\to\skills"
 ```
 
-Restart Codex after installation. Invoke it explicitly with `$deliberate-writing`, or let Codex select it for prose drafting and revision tasks.
-
-For local development, link the checkout instead of cloning it again:
+Link the skill into the Codex skills directory:
 
 ```powershell
 New-Item -ItemType Junction `
   -Path "$env:USERPROFILE\.codex\skills\deliberate-writing" `
-  -Target "C:\path\to\Rethor"
+  -Target "C:\path\to\skills\skills\deliberate-writing"
 ```
+
+Restart Codex after installation. Invoke it explicitly with `$deliberate-writing`, or let Codex select it automatically.
 
 ## Evaluate
 
